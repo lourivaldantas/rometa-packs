@@ -1,0 +1,35 @@
+{
+  "format": "rometa-reward-pack",
+  "version": 1,
+  "id": "series-e-doramas",
+  "name": "Séries & Doramas",
+  "author": "Rometa",
+  "description": "Maratonar com a consciência limpa: episódios liberados a cada meta batida.",
+  "icon": "television-classic",
+  "rewards": [
+    {
+      "title": "Assistir 2 episódios de dorama",
+      "description": "Sessão dupla no fim de semana.",
+      "scope": "weekly",
+      "threshold": 90,
+      "unlockDay": 6,
+      "icon": "drama-masks"
+    },
+    {
+      "title": "Um episódio extra na quarta",
+      "description": "Aquele empurrãozinho no meio da semana.",
+      "scope": "weekly",
+      "threshold": 70,
+      "unlockDay": 3,
+      "icon": "television-play"
+    },
+    {
+      "title": "Maratona de um filme",
+      "description": "Pipoca liberada ao fechar a quinzena.",
+      "scope": "biweekly",
+      "threshold": 85,
+      "unlockDay": null,
+      "icon": "movie-open-outline"
+    }
+  ]
+}

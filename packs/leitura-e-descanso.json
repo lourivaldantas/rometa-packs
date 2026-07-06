@@ -1,0 +1,35 @@
+{
+  "format": "rometa-reward-pack",
+  "version": 1,
+  "id": "leitura-e-descanso",
+  "name": "Leitura & Descanso",
+  "author": "Rometa",
+  "description": "Recompensas tranquilas: livro novo, soneca sem culpa e um dia off.",
+  "icon": "book-open-variant",
+  "rewards": [
+    {
+      "title": "Comprar um livro novo",
+      "description": "Fechou o mês? A estante agradece.",
+      "scope": "monthly",
+      "threshold": 90,
+      "unlockDay": null,
+      "icon": "bookshelf"
+    },
+    {
+      "title": "Tarde de soneca no domingo",
+      "description": "Descanso merecido, sem despertador.",
+      "scope": "weekly",
+      "threshold": 80,
+      "unlockDay": 0,
+      "icon": "sleep"
+    },
+    {
+      "title": "Um dia sem rotina",
+      "description": "Quinzena forte libera um dia totalmente livre.",
+      "scope": "biweekly",
+      "threshold": 95,
+      "unlockDay": null,
+      "icon": "beach"
+    }
+  ]
+}

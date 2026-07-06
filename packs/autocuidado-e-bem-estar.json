@@ -1,0 +1,35 @@
+{
+  "format": "rometa-reward-pack",
+  "version": 1,
+  "id": "autocuidado-e-bem-estar",
+  "name": "Autocuidado & Bem-estar",
+  "author": "comunidade Rometa",
+  "description": "Recompensas que recarregam: banho longo, spa caseiro e uma plantinha nova.",
+  "icon": "flower",
+  "rewards": [
+    {
+      "title": "Banho longo com música",
+      "description": "Sem pressa, com a playlist favorita.",
+      "scope": "weekly",
+      "threshold": 80,
+      "unlockDay": 0,
+      "icon": "shower"
+    },
+    {
+      "title": "Tarde de spa caseiro",
+      "description": "Quinzena boa merece máscara, vela e silêncio.",
+      "scope": "biweekly",
+      "threshold": 85,
+      "unlockDay": null,
+      "icon": "candle"
+    },
+    {
+      "title": "Comprar uma plantinha nova",
+      "description": "Mês fechado, jardim crescendo.",
+      "scope": "monthly",
+      "threshold": 90,
+      "unlockDay": null,
+      "icon": "sprout"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "format": "rometa-reward-pack",
+  "version": 1,
+  "id": "games-e-diversao",
+  "name": "Games & Diversão",
+  "author": "Rometa",
+  "description": "Para gamers disciplinados: horas de jogo e aquele item da wishlist.",
+  "icon": "gamepad-variant",
+  "rewards": [
+    {
+      "title": "2 horas de jogo no sábado",
+      "description": "Sessão livre de culpa.",
+      "scope": "weekly",
+      "threshold": 85,
+      "unlockDay": 6,
+      "icon": "controller-classic"
+    },
+    {
+      "title": "Comprar um jogo da wishlist",
+      "description": "Mês exemplar merece um título novo.",
+      "scope": "monthly",
+      "threshold": 92,
+      "unlockDay": null,
+      "icon": "cart-heart"
+    },
+    {
+      "title": "Noite de jogatina com amigos",
+      "description": "Quinzena cumprida libera a call até tarde.",
+      "scope": "biweekly",
+      "threshold": 80,
+      "unlockDay": 5,
+      "icon": "account-group"
+    }
+  ]
+}

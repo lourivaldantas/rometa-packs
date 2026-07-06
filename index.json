@@ -1,0 +1,179 @@
+{
+  "packs": [
+    {
+      "format": "rometa-reward-pack",
+      "version": 1,
+      "id": "series-e-doramas",
+      "name": "Séries & Doramas",
+      "author": "Rometa",
+      "description": "Maratonar com a consciência limpa: episódios liberados a cada meta batida.",
+      "icon": "television-classic",
+      "rewards": [
+        {
+          "title": "Assistir 2 episódios de dorama",
+          "description": "Sessão dupla no fim de semana.",
+          "scope": "weekly",
+          "threshold": 90,
+          "unlockDay": 6,
+          "icon": "drama-masks"
+        },
+        {
+          "title": "Um episódio extra na quarta",
+          "description": "Aquele empurrãozinho no meio da semana.",
+          "scope": "weekly",
+          "threshold": 70,
+          "unlockDay": 3,
+          "icon": "television-play"
+        },
+        {
+          "title": "Maratona de um filme",
+          "description": "Pipoca liberada ao fechar a quinzena.",
+          "scope": "biweekly",
+          "threshold": 85,
+          "unlockDay": null,
+          "icon": "movie-open-outline"
+        }
+      ]
+    },
+    {
+      "format": "rometa-reward-pack",
+      "version": 1,
+      "id": "leitura-e-descanso",
+      "name": "Leitura & Descanso",
+      "author": "Rometa",
+      "description": "Recompensas tranquilas: livro novo, soneca sem culpa e um dia off.",
+      "icon": "book-open-variant",
+      "rewards": [
+        {
+          "title": "Comprar um livro novo",
+          "description": "Fechou o mês? A estante agradece.",
+          "scope": "monthly",
+          "threshold": 90,
+          "unlockDay": null,
+          "icon": "bookshelf"
+        },
+        {
+          "title": "Tarde de soneca no domingo",
+          "description": "Descanso merecido, sem despertador.",
+          "scope": "weekly",
+          "threshold": 80,
+          "unlockDay": 0,
+          "icon": "sleep"
+        },
+        {
+          "title": "Um dia sem rotina",
+          "description": "Quinzena forte libera um dia totalmente livre.",
+          "scope": "biweekly",
+          "threshold": 95,
+          "unlockDay": null,
+          "icon": "beach"
+        }
+      ]
+    },
+    {
+      "format": "rometa-reward-pack",
+      "version": 1,
+      "id": "doces-e-delicias",
+      "name": "Doces & Delícias",
+      "author": "Rometa",
+      "description": "Gastronomia como incentivo: do docinho ao restaurante favorito.",
+      "icon": "cupcake",
+      "rewards": [
+        {
+          "title": "Sobremesa especial no sábado",
+          "description": "Aquele doce que você fica namorando na vitrine.",
+          "scope": "weekly",
+          "threshold": 85,
+          "unlockDay": 6,
+          "icon": "ice-cream"
+        },
+        {
+          "title": "Pedir delivery sem culpa",
+          "description": "Semana boa = cozinha fechada.",
+          "scope": "weekly",
+          "threshold": 75,
+          "unlockDay": 5,
+          "icon": "moped"
+        },
+        {
+          "title": "Jantar no restaurante favorito",
+          "description": "Mês fechado em grande estilo.",
+          "scope": "monthly",
+          "threshold": 90,
+          "unlockDay": null,
+          "icon": "silverware-fork-knife"
+        }
+      ]
+    },
+    {
+      "format": "rometa-reward-pack",
+      "version": 1,
+      "id": "games-e-diversao",
+      "name": "Games & Diversão",
+      "author": "Rometa",
+      "description": "Para gamers disciplinados: horas de jogo e aquele item da wishlist.",
+      "icon": "gamepad-variant",
+      "rewards": [
+        {
+          "title": "2 horas de jogo no sábado",
+          "description": "Sessão livre de culpa.",
+          "scope": "weekly",
+          "threshold": 85,
+          "unlockDay": 6,
+          "icon": "controller-classic"
+        },
+        {
+          "title": "Comprar um jogo da wishlist",
+          "description": "Mês exemplar merece um título novo.",
+          "scope": "monthly",
+          "threshold": 92,
+          "unlockDay": null,
+          "icon": "cart-heart"
+        },
+        {
+          "title": "Noite de jogatina com amigos",
+          "description": "Quinzena cumprida libera a call até tarde.",
+          "scope": "biweekly",
+          "threshold": 80,
+          "unlockDay": 5,
+          "icon": "account-group"
+        }
+      ]
+    },
+    {
+      "format": "rometa-reward-pack",
+      "version": 1,
+      "id": "autocuidado-e-bem-estar",
+      "name": "Autocuidado & Bem-estar",
+      "author": "comunidade Rometa",
+      "description": "Recompensas que recarregam: banho longo, spa caseiro e uma plantinha nova.",
+      "icon": "flower",
+      "rewards": [
+        {
+          "title": "Banho longo com música",
+          "description": "Sem pressa, com a playlist favorita.",
+          "scope": "weekly",
+          "threshold": 80,
+          "unlockDay": 0,
+          "icon": "shower"
+        },
+        {
+          "title": "Tarde de spa caseiro",
+          "description": "Quinzena boa merece máscara, vela e silêncio.",
+          "scope": "biweekly",
+          "threshold": 85,
+          "unlockDay": null,
+          "icon": "candle"
+        },
+        {
+          "title": "Comprar uma plantinha nova",
+          "description": "Mês fechado, jardim crescendo.",
+          "scope": "monthly",
+          "threshold": 90,
+          "unlockDay": null,
+          "icon": "sprout"
+        }
+      ]
+    }
+  ]
+}

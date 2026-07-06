@@ -1,0 +1,35 @@
+{
+  "format": "rometa-reward-pack",
+  "version": 1,
+  "id": "doces-e-delicias",
+  "name": "Doces & Delícias",
+  "author": "Rometa",
+  "description": "Gastronomia como incentivo: do docinho ao restaurante favorito.",
+  "icon": "cupcake",
+  "rewards": [
+    {
+      "title": "Sobremesa especial no sábado",
+      "description": "Aquele doce que você fica namorando na vitrine.",
+      "scope": "weekly",
+      "threshold": 85,
+      "unlockDay": 6,
+      "icon": "ice-cream"
+    },
+    {
+      "title": "Pedir delivery sem culpa",
+      "description": "Semana boa = cozinha fechada.",
+      "scope": "weekly",
+      "threshold": 75,
+      "unlockDay": 5,
+      "icon": "moped"
+    },
+    {
+      "title": "Jantar no restaurante favorito",
+      "description": "Mês fechado em grande estilo.",
+      "scope": "monthly",
+      "threshold": 90,
+      "unlockDay": null,
+      "icon": "silverware-fork-knife"
+    }
+  ]
+}
