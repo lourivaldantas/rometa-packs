@@ -174,6 +174,181 @@
           "icon": "sprout"
         }
       ]
+    },
+    {
+      "format": "rometa-reward-pack",
+      "version": 1,
+      "id": "cafe-e-amizades",
+      "name": "Café & Amizades",
+      "author": "comunidade Rometa",
+      "description": "Pausas com gente boa: café especial, encontro marcado e brunch de comemoração.",
+      "icon": "coffee",
+      "rewards": [
+        {
+          "title": "Café especial na sexta",
+          "description": "Fechou a semana? O cafezinho vira cafezão.",
+          "scope": "weekly",
+          "threshold": 70,
+          "unlockDay": 5,
+          "icon": "coffee-outline"
+        },
+        {
+          "title": "Encontro com amigos",
+          "description": "Quinzena em dia libera a agenda para quem importa.",
+          "scope": "biweekly",
+          "threshold": 80,
+          "unlockDay": null,
+          "icon": "account-heart"
+        },
+        {
+          "title": "Brunch de comemoração",
+          "description": "Mês fechado pede mesa farta no fim de semana.",
+          "scope": "monthly",
+          "threshold": 85,
+          "unlockDay": null,
+          "icon": "food-croissant"
+        }
+      ]
+    },
+    {
+      "format": "rometa-reward-pack",
+      "version": 1,
+      "id": "fitness-e-movimento",
+      "name": "Fitness & Movimento",
+      "author": "comunidade Rometa",
+      "description": "Para quem treina: smoothie caprichado, massagem e equipamento novo.",
+      "icon": "dumbbell",
+      "rewards": [
+        {
+          "title": "Açaí ou smoothie pós-treino",
+          "description": "Semana em dia, copo cheio no sábado.",
+          "scope": "weekly",
+          "threshold": 80,
+          "unlockDay": 6,
+          "icon": "cup"
+        },
+        {
+          "title": "Massagem ou dia de descanso ativo",
+          "description": "Quinzena forte pede músculos renovados.",
+          "scope": "biweekly",
+          "threshold": 85,
+          "unlockDay": null,
+          "icon": "spa"
+        },
+        {
+          "title": "Comprar um item de treino",
+          "description": "Mês completo: tênis, garrafinha ou aquele acessório da wishlist.",
+          "scope": "monthly",
+          "threshold": 90,
+          "unlockDay": null,
+          "icon": "shoe-sneaker"
+        }
+      ]
+    },
+    {
+      "format": "rometa-reward-pack",
+      "version": 1,
+      "id": "musica-e-criatividade",
+      "name": "Música & Criatividade",
+      "author": "comunidade Rometa",
+      "description": "Arte como recompensa: tarde criativa, karaokê e material novo.",
+      "icon": "palette",
+      "rewards": [
+        {
+          "title": "Tarde criativa no domingo",
+          "description": "Desenhar, escrever, tocar — sem culpa e sem relógio.",
+          "scope": "weekly",
+          "threshold": 75,
+          "unlockDay": 0,
+          "icon": "brush"
+        },
+        {
+          "title": "Noite de karaokê ou show",
+          "description": "Quinzena cumprida libera o microfone.",
+          "scope": "biweekly",
+          "threshold": 85,
+          "unlockDay": 6,
+          "icon": "microphone-variant"
+        },
+        {
+          "title": "Comprar material de arte ou música",
+          "description": "Mês fechado: tinta nova, caderno bonito ou cordas novas.",
+          "scope": "monthly",
+          "threshold": 88,
+          "unlockDay": null,
+          "icon": "guitar-acoustic"
+        }
+      ]
+    },
+    {
+      "format": "rometa-reward-pack",
+      "version": 1,
+      "id": "passeios-e-natureza",
+      "name": "Passeios & Natureza",
+      "author": "comunidade Rometa",
+      "description": "Ar livre como prêmio: parque, trilha nova e um bate-volta no fim do mês.",
+      "icon": "pine-tree",
+      "rewards": [
+        {
+          "title": "Manhã no parque no domingo",
+          "description": "Semana boa começa o domingo ao ar livre.",
+          "scope": "weekly",
+          "threshold": 80,
+          "unlockDay": 0,
+          "icon": "tree"
+        },
+        {
+          "title": "Trilha ou passeio inédito",
+          "description": "Quinzena completa libera um lugar que você nunca foi.",
+          "scope": "biweekly",
+          "threshold": 88,
+          "unlockDay": null,
+          "icon": "hiking"
+        },
+        {
+          "title": "Bate-volta de fim de semana",
+          "description": "Mês exemplar merece estrada, praia ou serra.",
+          "scope": "monthly",
+          "threshold": 95,
+          "unlockDay": null,
+          "icon": "car-convertible"
+        }
+      ]
+    },
+    {
+      "format": "rometa-reward-pack",
+      "version": 1,
+      "id": "pets-e-companhia",
+      "name": "Pets & Companhia",
+      "author": "comunidade Rometa",
+      "description": "Sua rotina em dia vira festa para o pet: passeio longo, petisco e brinquedo novo.",
+      "icon": "paw",
+      "rewards": [
+        {
+          "title": "Passeio longo com o pet no sábado",
+          "description": "Semana cumprida, coleira na mão e rua sem pressa.",
+          "scope": "weekly",
+          "threshold": 80,
+          "unlockDay": 6,
+          "icon": "dog-side"
+        },
+        {
+          "title": "Petisco especial na quarta",
+          "description": "Metade da semana em dia — o pet agradece.",
+          "scope": "weekly",
+          "threshold": 70,
+          "unlockDay": 3,
+          "icon": "bone"
+        },
+        {
+          "title": "Brinquedo novo para o pet",
+          "description": "Mês fechado: hora de renovar a caixa de brinquedos.",
+          "scope": "monthly",
+          "threshold": 90,
+          "unlockDay": null,
+          "icon": "tennis-ball"
+        }
+      ]
     }
   ]
 }

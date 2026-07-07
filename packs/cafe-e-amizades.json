@@ -1,0 +1,35 @@
+{
+  "format": "rometa-reward-pack",
+  "version": 1,
+  "id": "cafe-e-amizades",
+  "name": "Café & Amizades",
+  "author": "comunidade Rometa",
+  "description": "Pausas com gente boa: café especial, encontro marcado e brunch de comemoração.",
+  "icon": "coffee",
+  "rewards": [
+    {
+      "title": "Café especial na sexta",
+      "description": "Fechou a semana? O cafezinho vira cafezão.",
+      "scope": "weekly",
+      "threshold": 70,
+      "unlockDay": 5,
+      "icon": "coffee-outline"
+    },
+    {
+      "title": "Encontro com amigos",
+      "description": "Quinzena em dia libera a agenda para quem importa.",
+      "scope": "biweekly",
+      "threshold": 80,
+      "unlockDay": null,
+      "icon": "account-heart"
+    },
+    {
+      "title": "Brunch de comemoração",
+      "description": "Mês fechado pede mesa farta no fim de semana.",
+      "scope": "monthly",
+      "threshold": 85,
+      "unlockDay": null,
+      "icon": "food-croissant"
+    }
+  ]
+}

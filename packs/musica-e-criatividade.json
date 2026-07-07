@@ -1,0 +1,35 @@
+{
+  "format": "rometa-reward-pack",
+  "version": 1,
+  "id": "musica-e-criatividade",
+  "name": "Música & Criatividade",
+  "author": "comunidade Rometa",
+  "description": "Arte como recompensa: tarde criativa, karaokê e material novo.",
+  "icon": "palette",
+  "rewards": [
+    {
+      "title": "Tarde criativa no domingo",
+      "description": "Desenhar, escrever, tocar — sem culpa e sem relógio.",
+      "scope": "weekly",
+      "threshold": 75,
+      "unlockDay": 0,
+      "icon": "brush"
+    },
+    {
+      "title": "Noite de karaokê ou show",
+      "description": "Quinzena cumprida libera o microfone.",
+      "scope": "biweekly",
+      "threshold": 85,
+      "unlockDay": 6,
+      "icon": "microphone-variant"
+    },
+    {
+      "title": "Comprar material de arte ou música",
+      "description": "Mês fechado: tinta nova, caderno bonito ou cordas novas.",
+      "scope": "monthly",
+      "threshold": 88,
+      "unlockDay": null,
+      "icon": "guitar-acoustic"
+    }
+  ]
+}

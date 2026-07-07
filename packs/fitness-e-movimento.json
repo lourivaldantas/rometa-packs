@@ -1,0 +1,35 @@
+{
+  "format": "rometa-reward-pack",
+  "version": 1,
+  "id": "fitness-e-movimento",
+  "name": "Fitness & Movimento",
+  "author": "comunidade Rometa",
+  "description": "Para quem treina: smoothie caprichado, massagem e equipamento novo.",
+  "icon": "dumbbell",
+  "rewards": [
+    {
+      "title": "Açaí ou smoothie pós-treino",
+      "description": "Semana em dia, copo cheio no sábado.",
+      "scope": "weekly",
+      "threshold": 80,
+      "unlockDay": 6,
+      "icon": "cup"
+    },
+    {
+      "title": "Massagem ou dia de descanso ativo",
+      "description": "Quinzena forte pede músculos renovados.",
+      "scope": "biweekly",
+      "threshold": 85,
+      "unlockDay": null,
+      "icon": "spa"
+    },
+    {
+      "title": "Comprar um item de treino",
+      "description": "Mês completo: tênis, garrafinha ou aquele acessório da wishlist.",
+      "scope": "monthly",
+      "threshold": 90,
+      "unlockDay": null,
+      "icon": "shoe-sneaker"
+    }
+  ]
+}
